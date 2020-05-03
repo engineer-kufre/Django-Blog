@@ -39,6 +39,15 @@ h2 {
     font-style: italic;
 }
 
+#sidebar > ul > li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+#sidebar > h3 {
+    margin-left: 25px;
+}
+
 p.date { 
     color:#ccc;
     font-family: georgia, serif;
@@ -51,6 +60,16 @@ p.date {
 .pagination { 
     margin:40px 0; 
     font-weight:bold;
+}
+.prev_next {
+    border: 1px solid #00abff;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 0 5px;
+}
+.prev_next:hover {
+    border: 1px solid #0026ff;
+    color: #0026ff;
 }
 
 /* forms */
